@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Grid</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="gridCanvas"></canvas>
+    <div class="slidecontainer">
+        <input type="range" min="0" max="50" value="10" class="slider" id="radiusSlider">
+    </div>
+    <select name="colors" id="colors">
+        <option value="Rainbow">Rainbow</option>
+        <option value="Sand">Sand</option>
+        <option value="Red">Red</option>
+        <option value="Orange">Orange</option>
+        <option value="Yellow">Yellow</option>
+        <option value="Green">Green</option>
+        <option value="Blue">Blue</option>
+        <option value="Indigo">Indigo</option>
+        <option value="Violet">Violet</option>
+    </select>
+    <select name="types" id="types">
+        <option value="Sand">Sand</option>
+        <option value="Rock">Rock</option>
+        <option value="Gravel">Gravel</option>
+        <option value="Water">Water</option>
+    </select>
+    <button id="Clear">Clear</button>
+    <button id="Pause">Pause</button>
+</body>
+<script src="script.js"></script>
+</html>
